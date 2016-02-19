@@ -2,13 +2,13 @@
     <div class="col-md-6">
         <div class="well">
             <h2 style="margin-bottom: 10px">Basic Membership</h2>
-            <%= link_to "Sign Up Free", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+            <%= link_to "Sign Up Free", new_user_registration_path(plan: @basic_plan.id), class: 'btn btn-primary btn-lg btn-block' %>
         </div>
     </div>
     <div class="col-md-6">
         <div class="well">
             <h2 style="margin-bottom: 10px">Pro Membership</h2>
-            <%= link_to "Sign Up Pro (10$ per month)", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+            <%= link_to "Sign Up Pro (10$ per month)", new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block' %>
         </div>
     </div>
 </div>
