@@ -39,7 +39,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # for user auth
-gem 'devise', '~> 3.4.1'
+gem 'devise', '3.4.1'
 
 # for handling payments
 gem 'stripe', '~> 1.16.1'

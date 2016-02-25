@@ -154,7 +154,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (= 3.3.1)
   coffee-rails (~> 4.0.0)
-  devise (~> 3.4.1)
+  devise (= 3.4.1)
   figaro (~> 1.0.0)
   font-awesome-sass (~> 4.2.0)
   jbuilder (~> 2.0)
